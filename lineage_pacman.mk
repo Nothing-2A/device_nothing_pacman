@@ -15,7 +15,7 @@ $(call inherit-product, device/nothing/pacman/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Nothing
-PRODUCT_DEVICE := Pacman
+PRODUCT_DEVICE := pacman
 PRODUCT_MANUFACTURER := Nothing
 PRODUCT_MODEL := A142
 PRODUCT_NAME := lineage_pacman
