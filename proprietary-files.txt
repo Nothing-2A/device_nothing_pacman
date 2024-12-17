@@ -239,9 +239,7 @@ vendor/etc/camera/morphoVideoEIS.bin
 vendor/etc/camera/morphoZoomEIS.bin
 vendor/etc/camera/morpho_raw_deep_denoise_model.bin
 vendor/etc/camera/morpho_raw_deep_denoise_tuning_params.xml
-vendor/etc/camera/nothing_node.bin
 vendor/etc/camera/nothing_noise_stat.bin
-vendor/etc/camera/nothing_pipeline.bin
 vendor/etc/camera/ntcamoverridesettings.txt
 vendor/lib64/camera/node/com.nothing.node.b2y.so
 vendor/lib64/camera/node/com.nothing.node.beauty.so
@@ -553,7 +551,6 @@ vendor/lib64/mt6886/mtk000_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/mtk000_mipi_r
 vendor/lib64/mt6886/s5kgn9_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/s5kgn9_mipi_raw_IdxMgr.so
 vendor/lib64/mt6886/s5kgn9stech_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/s5kgn9stech_mipi_raw_IdxMgr.so
 vendor/lib64/mt6886/s5kjn1_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/s5kjn1_mipi_raw_IdxMgr.so
-vendor/lib64/mt6886/s5kjn1front_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/s5kjn1front_mipi_raw_IdxMgr.so
 vendor/lib64/imx615_mipi_raw_IdxMgr.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.pipe.so
@@ -898,7 +895,6 @@ vendor/lib64/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgn9_mipi_raw_IdxMgr.so
 vendor/lib64/s5kgn9stech_mipi_raw_IdxMgr.so
 vendor/lib64/s5kjn1_mipi_raw_IdxMgr.so
-vendor/lib64/s5kjn1front_mipi_raw_IdxMgr.so
 vendor/lib64/vendor.mediatek.hardware.camera.aovservice-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
@@ -1028,10 +1024,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1_mipi_raw/mt6886/I
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1_mipi_raw/mt6886/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1_mipi_raw/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1_mipi_raw/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/mt6886/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/mt6886/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5kjn1front_mipi_raw/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ISP_info.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6886/ISP_mapping.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/mt6886/ISP_param.db;SYMLINK=vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB_aov/default_sensor/ISP_param.db
@@ -1416,8 +1408,8 @@ vendor/bin/ccci_rpcd
 vendor/bin/hw/mtkfusionrild
 vendor/bin/muxreport
 vendor/etc/MNL_Config.xml
-vendor/etc/apdb/APDB_MT6886___W2426
-vendor/etc/apdb/APDB_MT6886___W2426_ENUM
+vendor/etc/apdb/APDB_MT6886___W2338
+vendor/etc/apdb/APDB_MT6886___W2338_ENUM
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
 vendor/etc/ecc_list_OP02.xml
@@ -1471,8 +1463,8 @@ vendor/lib64/mt6886/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Secure Element
-vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
-vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
+vendor/bin/hw/android.hardware.secure_element@1.2-service-gto
+vendor/etc/init/android.hardware.secure_element@1.2-service-gto.rc
 
 # Sensors
 
@@ -1525,7 +1517,6 @@ vendor/etc/thermal/thermal_policy_09.conf
 vendor/etc/thermal/thermal_policy_10.conf
 vendor/etc/thermal/thermal_policy_11.conf
 vendor/etc/thermal/thermal_policy_12.conf
-vendor/etc/thermal/thermal_policy_13.conf
 vendor/etc/thermal/thermal_policy_14.conf
 vendor/lib64/hw/thermal_hal.so
 
